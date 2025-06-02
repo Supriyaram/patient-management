@@ -1,7 +1,8 @@
-package com.example.patientmanagement.controller;
+package com.devops.patient_management.controller;
 
-import com.example.patientmanagement.model.Patient;
-import com.example.patientmanagement.service.PatientService;
+
+import com.devops.patient_management.model.Patient;
+import com.devops.patient_management.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +14,6 @@ public class PatientController {
 
     @Autowired
     private PatientService patientService;
-
     // Get all patients
     @GetMapping
     public List<Patient> getAllPatients() {

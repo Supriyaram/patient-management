@@ -1,0 +1,4 @@
+com/devops/patient_management/model/Patient.class
+com/devops/patient_management/controller/PatientController.class
+com/devops/patient_management/PatientManagementApplication.class
+com/devops/patient_management/service/PatientService.class

@@ -1,6 +1,7 @@
-package com.example.patientmanagement.service;
+package com.devops.patient_management.service;
 
-import com.example.patientmanagement.model.Patient;
+
+import com.devops.patient_management.model.Patient;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
