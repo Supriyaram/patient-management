@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  inventory-service:
+    image: ${ECR_REPO_URI}:latest
+    container_name: ${IMAGE_NAME}-container
+    ports:
+      - "8010:8080"
+    restart: unless-stopped
