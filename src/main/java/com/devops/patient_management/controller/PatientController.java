@@ -1,10 +1,11 @@
 package com.devops.patient_management.controller;
 
-
 import com.devops.patient_management.model.Patient;
 import com.devops.patient_management.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import com.devops.patient_management.metrics.MetricsService;
+
 
 import java.util.List;
 

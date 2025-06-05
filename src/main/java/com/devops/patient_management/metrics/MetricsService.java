@@ -36,7 +36,4 @@ public class MetricsService {
         long duration = System.nanoTime() - startTimeNanos;
         requestTimer.record(duration, TimeUnit.NANOSECONDS);
     }
-    metricsService.incrementGetAllPatientsCounter();
-    return metricsService.recordRequestDuration(() -> patientService.getAllPatients());
-
 }
