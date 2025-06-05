@@ -14,6 +14,9 @@ public class PatientController {
 
     @Autowired
     private PatientService patientService;
+    @Autowired
+    private MetricsService metricsService;
+
     // Get all patients
     @GetMapping
     public List<Patient> getAllPatients() {
@@ -25,5 +28,8 @@ public class PatientController {
     public Patient getPatientById(@PathVariable Long id) {
         return patientService.getPatientById(id);
     }
+
+
+
 }
 
